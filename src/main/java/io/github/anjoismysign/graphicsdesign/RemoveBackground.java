@@ -76,7 +76,6 @@ public enum RemoveBackground {
                             "Confirmación",
                             JOptionPane.DEFAULT_OPTION);
                     if (option != JOptionPane.YES_OPTION) {
-                        job();
                         return;
                     }
                     progressBar.setVisible(true);
